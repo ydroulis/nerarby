@@ -7,10 +7,13 @@ export const s = StyleSheet.create({
         flexDirection: "row",
         gap: 16
     },
+    details: {
+        flex: 1,
+    },
     title: {
         fontSize: 16,
         fontFamily: fontFamily.semiBold,
-        color: colors.gray[600]
+        color: colors.gray[600],
     },
     description: {
         fontSize: 14,
