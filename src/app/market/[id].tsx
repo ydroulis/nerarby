@@ -22,7 +22,6 @@ export default function Market(){
 
     const [ _, requestPermission ] = useCameraPermissions()
     const params = useLocalSearchParams<{ id: string }>()
-    console.log("🚀 ~ Market ~ params:", params.id)
 
     const qrLock = useRef(false)
 
